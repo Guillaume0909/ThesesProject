@@ -198,6 +198,7 @@ class these {
      */
     public function setDateFirstInscriptionDoc($date_first_inscription_doc)
     {
+
         $this->date_first_inscription_doc = $date_first_inscription_doc;
     }
 
@@ -295,6 +296,10 @@ class these {
     public function setDateUpdateThese($date_update_these)
     {
         $this->date_update_these = $date_update_these;
+    }
+
+    public function correctDate($date){
+        return substr($date, 6, 9).substr($date, 2, 3).substr($date, -5, -4).substr($date, 0, 2);
     }
 
 

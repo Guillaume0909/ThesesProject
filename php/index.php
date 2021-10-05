@@ -25,7 +25,7 @@
         <img src="http://theses.fr/images/theses.gif">
     </section>
     <section>
-        <form class="row g-3 needs-validation" novalidate>
+        <form class="row g-3 needs-validation" novalidate method="post" action="Test.php">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Toutes les thèses</a>
@@ -40,18 +40,16 @@
                     <a class="nav-link disabled">Désactiver l'autocomplétion</a>
                 </li>
             </ul>
-            
+                <div class="nav justify-content-center">
+                    <div class="col-auto">
+                        <input type="search" class="form-control" id="search" placeholder="Thèse">
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-3">Rechercher</button>
+                    </div>
+                </div>
         </form>
-    </section>
-    <section>
-        <div class="nav justify-content-center">
-            <div class="col-auto">
-                <input type="search" class="form-control" id="search" placeholder="Thèse">
-            </div>
-            <div class="col-auto">
-                <button type="submit" class="btn btn-primary mb-3">Rechercher</button>
-            </div>
-        </div>
+
     </section>
     <section class="filter">
         <div class="form-check">

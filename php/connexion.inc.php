@@ -4,7 +4,7 @@
  * création d'objet PDO de la connexion qui sera représenté par la variable $cnx
  */
 $user = 'guillaume.grisolet';
-$pass =  'Lamsox46';
+$pass =  'guigui';
 try {
     $cnx = new PDO('pgsql:host=sqletud.u-pem.fr;dbname=guillaume.grisolet_db',$user,$pass);
     echo "Resultat : Connexion réussi !";
@@ -16,7 +16,6 @@ catch (PDOException $e) {
  * page html. Attention c'est utile pour débugger mais cela affiche des
  * informations potentiellement confidentielles donc éviter de le faire pour un
  * site en production.*/
- //echo "Error: " . $e;
 
 }
     
