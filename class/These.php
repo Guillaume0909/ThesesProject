@@ -22,23 +22,7 @@ class these {
 
     public function __construct()
     {
-        $this->author = null;
-        $this->author_id = null;
-        $this->title = null;
-        $this->these_director = null;
-        $this->these_director_in_first_name = null;
-        $this->director_id = null;
-        $this->location_sustenancwe = null;
-        $this->location_id = null;
-        $this->discipline = null;
-        $this->status = null;
-        $this->date_first_inscription_doc = null;
-        $this->date_sustenance = null;
-        $this->these_language = null;
-        $this->these_id = null;
-        $this->online_accessibility = null;
-        $this->date_publication = null;
-        $this->date_update_these = null;
+
     }
 
     /**
@@ -52,7 +36,7 @@ class these {
     /**
      * @param mixed $author
      */
-    public function setAuthor($author): void
+    public function setAuthor($author)
     {
         $this->author = $author;
     }
@@ -68,7 +52,7 @@ class these {
     /**
      * @param mixed $author_id
      */
-    public function setAuthorId($author_id): void
+    public function setAuthorId($author_id)
     {
         $this->author_id = $author_id;
     }
@@ -84,7 +68,7 @@ class these {
     /**
      * @param mixed $title
      */
-    public function setTitle($title): void
+    public function setTitle($title)
     {
         $this->title = $title;
     }
@@ -100,7 +84,7 @@ class these {
     /**
      * @param mixed $these_director
      */
-    public function setTheseDirector($these_director): void
+    public function setTheseDirector($these_director)
     {
         $this->these_director = $these_director;
     }
@@ -116,7 +100,7 @@ class these {
     /**
      * @param mixed $these_director_in_first_name
      */
-    public function setTheseDirectorInFirstName($these_director_in_first_name): void
+    public function setTheseDirectorInFirstName($these_director_in_first_name)
     {
         $this->these_director_in_first_name = $these_director_in_first_name;
     }
@@ -132,7 +116,7 @@ class these {
     /**
      * @param mixed $director_id
      */
-    public function setDirectorId($director_id): void
+    public function setDirectorId($director_id)
     {
         $this->director_id = $director_id;
     }
@@ -148,7 +132,7 @@ class these {
     /**
      * @param mixed $location_sustenance
      */
-    public function setLocationSustenance($location_sustenance): void
+    public function setLocationSustenance($location_sustenance)
     {
         $this->location_sustenance = $location_sustenance;
     }
@@ -164,7 +148,7 @@ class these {
     /**
      * @param mixed $location_id
      */
-    public function setLocationId($location_id): void
+    public function setLocationId($location_id)
     {
         $this->location_id = $location_id;
     }
@@ -180,7 +164,7 @@ class these {
     /**
      * @param mixed $discipline
      */
-    public function setDiscipline($discipline): void
+    public function setDiscipline($discipline)
     {
         $this->discipline = $discipline;
     }
@@ -196,7 +180,7 @@ class these {
     /**
      * @param mixed $status
      */
-    public function setStatus($status): void
+    public function setStatus($status)
     {
         $this->status = $status;
     }
@@ -212,7 +196,7 @@ class these {
     /**
      * @param mixed $date_first_inscription_doc
      */
-    public function setDateFirstInscriptionDoc($date_first_inscription_doc): void
+    public function setDateFirstInscriptionDoc($date_first_inscription_doc)
     {
         $this->date_first_inscription_doc = $date_first_inscription_doc;
     }
@@ -228,7 +212,7 @@ class these {
     /**
      * @param mixed $date_sustenance
      */
-    public function setDateSustenance($date_sustenance): void
+    public function setDateSustenance($date_sustenance)
     {
         $this->date_sustenance = $date_sustenance;
     }
@@ -244,7 +228,7 @@ class these {
     /**
      * @param mixed $these_language
      */
-    public function setTheseLanguage($these_language): void
+    public function setTheseLanguage($these_language)
     {
         $this->these_language = $these_language;
     }
@@ -260,7 +244,7 @@ class these {
     /**
      * @param mixed $these_id
      */
-    public function setTheseId($these_id): void
+    public function setTheseId($these_id)
     {
         $this->these_id = $these_id;
     }
@@ -276,7 +260,7 @@ class these {
     /**
      * @param mixed $online_accessibility
      */
-    public function setOnlineAccessibility($online_accessibility): void
+    public function setOnlineAccessibility($online_accessibility)
     {
         $this->online_accessibility = $online_accessibility;
     }
@@ -292,7 +276,7 @@ class these {
     /**
      * @param mixed $date_publication
      */
-    public function setDatePublication($date_publication): void
+    public function setDatePublication($date_publication)
     {
         $this->date_publication = $date_publication;
     }
@@ -308,7 +292,7 @@ class these {
     /**
      * @param mixed $date_update_these
      */
-    public function setDateUpdateThese($date_update_these): void
+    public function setDateUpdateThese($date_update_these)
     {
         $this->date_update_these = $date_update_these;
     }

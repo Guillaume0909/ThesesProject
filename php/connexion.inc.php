@@ -6,7 +6,7 @@
 $user = 'guillaume.grisolet';
 $pass =  'Lamsox46';
 try {
-    $cnx = new PDO('mysql:host=sqletud.u-pem.fr;dbname=guillaume.grisolet_db',$user,$pass);
+    $cnx = new PDO('pgsql:host=sqletud.u-pem.fr;dbname=guillaume.grisolet_db',$user,$pass);
     echo "Resultat : Connexion réussi !";
 }
 catch (PDOException $e) {
